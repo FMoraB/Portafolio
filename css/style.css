@@ -1,0 +1,191 @@
+/* El *{ se utiliza para estilos universales*/
+|* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo de imagenes*/
+.img-responsive {
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  left: -10px;
+  top: -10px;
+  transform: none;
+  margin-top: 0;
+  padding-top: 0;
+  height: auto;
+  border: none;
+  display: block;
+  z-index: 1;
+}
+
+/* Estilo de body */
+body {
+  background-color: #031926;
+}
+
+/* Estilo de textos */
+h1 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 56px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+
+p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.about-Me {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 56px;
+  top: 9%;
+  left: 10%;
+  transform: translate(70%, -50%);
+  z-index: 2;
+}
+
+p.description {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 56px;
+  top: 1%;
+  left: 10%;
+  transform: translate(70%, -50%);
+  z-index: 2;
+}
+
+/*Botones*/
+.button{
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #A86221;
+  font-size: 32px;
+  margin: 15px 32px;
+  border: none;
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 400px;
+  
+
+}
+
+/* Estilo de contenedor y formas */
+.contenedor {
+  top: 125px;
+  right: 1%;
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6%;
+
+}
+
+.rectangulo {
+  position: absolute;
+  background-color: #40048A;
+  width: 180%;
+  height: 89%;
+  z-index: -1;
+}
+
+.rectangulo2 {
+  position: absolute;
+  background-color: #A86221;
+  width: 175%;
+  height: 76%;
+  z-index: -1;
+}
+
+.separator {
+  display: flex;
+  position: relative;
+  background-color: #eeeae6;
+  width: 1970px;
+  height: 20px;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+p.stars {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.396);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-size: 56px;
+  top: 1px;
+  left: 10%;
+  transform: translate(70%, -50%);
+  z-index: 2;
+}
+
+/* Diseño de las cards*/
+.columnButtons {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+
+
+}
+
+div.card {
+  width: 25%;
+  height: 800px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 16px;
+}
+
+div.container {
+  text-align: justify;
+  padding: 10px 30px;
+}
+
+.d-block {
+  display: block;
+}
+
+.columnCards {
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.cardImages {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px
+}
